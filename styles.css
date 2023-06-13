@@ -1,0 +1,44 @@
+main {
+  background-image: url(https://ticketleap-media-master.s3.amazonaws.com/cb57c8d8-97e9-4671-b9eb-cc825e261823/hero.jpg);
+}
+@media screen and (min-width: 10em) {
+  img {
+    max-width: 30em;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top:10px;
+    border-radius: 30%;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: rgb(196, 211, 0);
+}
+#img-caption {
+  text-align: center;
+  color: black;
+}
+figure{
+    border: 2px solid black;
+    background-color:  rgb(196, 211, 0);
+    border-radius: 30%;
+}
+p {
+  color: white;
+  font-size: 16px;
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  grid-template-columns: repeat(3, minmax(auto, 200px));
+  gap:20px;
+  height:50%;
+}
+a{
+    height:30%;
+}
+
